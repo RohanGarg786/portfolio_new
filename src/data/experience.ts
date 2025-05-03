@@ -12,7 +12,6 @@ export const experiences: Experience[] = [
       'Built RESTful APIs and integrated third-party services',
       'Utilized Docker for containerization and deployment',
       'Implemented message queuing with RabbitMQ for asynchronous processing',
-      'Collaborated with cross-functional teams using Agile methodologies'
     ],
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Docker', 'RabbitMQ', 'TypeScript', 'Microservices']
 
