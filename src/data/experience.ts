@@ -14,7 +14,6 @@ export const experiences: Experience[] = [
       'Implemented message queuing with RabbitMQ for asynchronous processing',
     ],
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Docker', 'RabbitMQ', 'TypeScript', 'Microservices']
-
   },
   {
     company: 'ThinkNext Technologies pvt. ltd.',

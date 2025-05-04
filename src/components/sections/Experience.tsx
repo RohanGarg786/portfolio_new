@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Section from '../ui/Section';
 import { experiences } from '../../data/experience';
-import { Calendar, CheckCircle } from 'lucide-react';
+import { Calendar, CheckCircle } from 'lucide-react'; 
 
 const Experience: React.FC = () => {
   return (
@@ -24,7 +24,7 @@ const Experience: React.FC = () => {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             viewport={{ once: true, margin: "-100px" }}
             className={`relative mb-12 md:mb-16 ${
-              index % 2 === 0 ? 'md:text-right md:pr-10' : 'md:pl-10'
+              index % 2 === 0 ? ' md:pr-10' : 'md:pl-10'
             } md:w-1/2 ${
               index % 2 === 0 ? 'md:ml-auto' : ''
             }`}
@@ -39,7 +39,7 @@ const Experience: React.FC = () => {
             
             {/* Content card */}
             <div className="ml-9 md:ml-0 bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6">
-              <div className="flex flex-col md:items-start md:items-end mb-4">
+              <div className="flex flex-col md:items-start mb-4">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">
                   {exp.position}
                 </h3>
